@@ -24,16 +24,16 @@ loginDetais: LoginDetails;
   ){}
    login() {
         this.loading = true;
-        debugger;
-        if(this.name=="kkk" && this.password=="kkk"){
+        // debugger;
+        // if(this.name=="kkk" && this.password=="kkk"){
         this.router.navigateByUrl('/home');
-      }
-      else{
-        alert("Please Enter Valid Username and Password");
-        this.name ="";
-        this.password ="";
+      // }
+      // else{
+      //   alert("Please Enter Valid Username and Password");
+      //   this.name ="";
+      //   this.password ="";
 
-      }
+      // }
     }
 
 }
