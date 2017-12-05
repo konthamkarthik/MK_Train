@@ -1,0 +1,71 @@
+.Login_body {
+    width: 100%;
+    height: auto;
+    padding: auto;
+    margin: 0 auto;
+}
+.header_bg {
+    background-color: darkslateblue;
+    background-repeat: repeat-x;
+    height: 70px;
+    border: none;
+}
+.login_wrapper{
+    width: 960px;
+    margin: 0 auto;
+    margin-right: auto;
+    margin-left: auto;
+    height: 70px;
+    padding: 10px;
+    color: wheat;
+    font-size: -webkit-xxx-large;
+    font-family: sans-serif
+}
+.login_content login{
+    background-color: #FFF;
+    float: left;
+    width: 100%;
+    box-shadow: 0 60px 10px #D6D6D6;
+    min-height: 550px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.user_info_right {
+        float: right;
+    margin-top: 21px;
+    font-size: large;
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.navbar{
+    background-color: #D9D9D9;
+    border-radius: 0;
+    min-height: auto;
+    border: 0;
+    margin-bottom: 12px !important;
+}
+.header {
+    background-color: darkslateblue;
+    min-height: 70px;
+    padding: 20px 0 10px 0;
+}
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    color: wheat;
+    font-size: -webkit-xxx-large;
+    font-family: sans-serif
+}
+.collapse navbar-collapse{
+    border-color: #e7e7e7;
+}
+.navbar-collapse a{
+        padding: 15px;
+}

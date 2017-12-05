@@ -1,0 +1,46 @@
+<div class="Login_body"><div class="header_bg"><div class="login_wrapper">Demo<div class="user-info user_info_right"><label>Help</label></div></div></div></div>
+    <!--<div class="demo-layout-transparent mdl-layout mdl-js-layout">-->
+      <!--<header class="mdl-layout__header mdl-layout__header--transparent">-->
+        <!--<div class="mdl-layout__header-row">-->
+
+          <!-- Title -->
+
+          <div class="Login_body">
+  <div class="login_Body_wrapper">
+        <div class="login_content login">
+          <div class="">
+            <h2 class="text-uppercase">Login</h2>
+            <p>Are you a new User? <a [routerLink]="['/<home></home>']" class="btn btn-link">Click here</a> to register</p>
+            <form class="form-signin" role="form" method="POST" (ngSubmit)="login()">			
+                <div id="errorMessage" class="col-xs-12" style="display: none;"></div>		
+              <div class="form-group login_from_group">
+                <label class="login_input_txt pull-left">Username</label>
+                <div class="">
+                  <input type="text" id="txtRACFID" name="txtRACFID" [(ngModel)]="name" placeholder="User Name" class="Login_form-control">
+                </div>
+              </div>
+              <div class="form-group login_from_group">
+                <label class="login_input_txt pull-left">Password</label>
+                <div class="">
+                  <input type="password" id="txtPassword" name="txtPassword" [(ngModel)]="password" placeholder="Password" class="Login_form-control">
+                </div>
+              </div>
+            
+            <div class="forgot_div">
+                <p><a href="https://spt-qa.spe.sony.com/b2b2/?up=fp">Forgot Password? </a></p>
+                <p><a href="https://spt-qa.spe.sony.com/b2b2/?up=un">Forgot Username? </a></p>
+            </div>
+
+              <div class="form-group login_from_group">
+                <div class="submit_div">
+                  <button type="submit" class="btn btn-primary btn-sony login_btn">Login</button>
+                  <img src="./images/IM_Black.jpg" class="img-responsive pull-right identity_img"> </div>
+              </div>
+              </form>
+          </div>
+        </div>
+     
+    
+
+  </div>
+</div>

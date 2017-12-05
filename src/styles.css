@@ -1,1 +1,131 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    display: block;
+    margin: 0px -10px;
+}
+.Login_body {
+    width: 100%;
+    height: auto;
+    padding: auto;
+    margin: 0 auto;
+}
+.header_bg {
+    background-color: darkslateblue;
+    background-repeat: repeat-x;
+    height: 70px;
+    border: none; 
+}
+app-nextpage > *, app-home > *{
+    padding: 0px 10px;
+}
+.login_wrapper{
+    width: 960px;
+    margin: 0 auto;
+    margin-right: auto;
+    margin-left: auto;
+    height: 70px;
+    padding: 10px;
+    color: wheat;
+    font-size: -webkit-xxx-large;
+    font-family: sans-serif
+}
+.login_content login{
+    background-color: #FFF;
+    float: left;
+    width: 100%;
+    box-shadow: 0 60px 10px #D6D6D6;
+    min-height: 550px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.user_info_right {
+        float: right;
+    /*margin-top: 21px;*/
+    font-size: large;
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.navbar{
+    background-color: #D9D9D9;
+    border-radius: 0;
+    min-height: auto;
+    border: 0;
+    margin-bottom: 12px !important;
+}
+.header {
+    background-color: darkslateblue;
+    min-height: 70px;
+    padding: 20px 0 10px 0;
+}
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    color: wheat;
+    font-size: -webkit-xxx-large;
+    font-family: sans-serif
+}
+.collapse navbar-collapse{
+    border-color: #e7e7e7;
+}
+.navbar-collapse a{
+        padding: 15px;
+}
+
+.footer_div {
+    background-color: darkslateblue;
+    background-repeat: repeat-x;
+    padding: 15px 0px;
+    position: relative;
+    clear: both;
+}
+.login_wrapper {    
+    margin: 0 auto;
+    margin-right: auto;
+    margin-left: auto;
+    height: 70px;
+}
+.login_footer_link {
+    width: 350px;
+}
+.login_Body_wrapper {
+    width: 960px;
+    margin: 0 auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+.login_content {
+    background-color: #FFF;
+    float: left;
+    width: 60%;
+    box-shadow: 0 15px 10px #D6D6D6;
+    /* min-height: 284px; */
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 12%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+}
+.text-uppercase {
+    text-transform: uppercase;
+}
+h2, .h2 {
+    font-size: 30px;
+}
+.submit_div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    color: wheat;
+}

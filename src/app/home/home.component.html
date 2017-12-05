@@ -1,0 +1,56 @@
+<!-- main app container -->
+<div class="Login_body"><div class="header"><div class="container-fluid">Demo<div class="user-info user_info_right">
+        <ul class="nav navbar-nav pull-right" style="margin-top:5px;">
+              
+            <li><a (click)="logout()"><span class="glyphicon glyphicon-off signout-bg"></span>Logout</a></li>                  
+            <li><a ng-href="https://www.google.com/" target="_blank" href="https://www.google.com/"><span class="glyphicon glyphicon-question-sign icon_bg"></span> Help</a></li>
+          </ul>
+    </div></div></div></div>
+<div class="demo-layout-transparent mdl-layout mdl-js-layout">
+      <header class="mdl-layout__header mdl-layout__header--transparent">
+        <div class="mdl-layout__header-row">
+
+          <!-- Title -->
+          <!--<span class="Login_body">Garriage</span>-->
+
+          <!-- Add spacer, to align navigation to the right -->
+          <div class="mdl-layout-spacer"></div>
+
+          <!-- Navigation with router directives-->
+          <nav class="navbar">
+            <div class="collapse navbar-collapse">
+            <a class="mdl-navigation__link" [routerLink]="['/home']">Home</a>
+            <a class="mdl-navigation__link" [routerLink]="['/home/cats']">Cats</a>
+            <a class="mdl-navigation__link" [routerLink]="['/home/nextpage']">Dogs</a>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <!--<main class="mdl-layout__content">
+        <h1 class="header-text">We care about pets...</h1>
+      </main>-->
+      <h2>{{ hero.name }} Details</h2>
+        <div><span>id: </span>{{hero.id}}</div>
+      <div><span>name: </span>{{hero.name}}</div>
+    </div>
+    <router-outlet></router-outlet>
+
+<!--<div class="jumbotron">
+    <div class="container">
+        <div class="col-sm-8 col-sm-offset-2">     
+            
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>-->
+
+<!-- credits -->
+<div class="text-center">
+    <p>
+        <a href="http://jasonwatmore.com/post/2016/09/29/angular-2-user-registration-and-login-example-tutorial" target="_top">Angular 2 User Registration and Login Example & Tutorial</a>
+    </p>
+    <p>
+        <a href="http://jasonwatmore.com" target="_top">JasonWatmore.com</a>
+    </p>
+</div>
