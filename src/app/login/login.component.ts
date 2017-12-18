@@ -26,7 +26,7 @@ loginDetais: LoginDetails;
         this.loading = true;
         // debugger;
         // if(this.name=="kkk" && this.password=="kkk"){
-        this.router.navigateByUrl('/home');
+        this.router.navigateByUrl('/home/homepage');
       // }
       // else{
       //   alert("Please Enter Valid Username and Password");

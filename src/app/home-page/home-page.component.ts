@@ -4,12 +4,12 @@ import { Router } from '@angular/router';
 import { ExampleService } from '../services/name.service';
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css'],
-  providers: [ExampleService]
+  selector: 'app-home-page',
+  templateUrl: './home-page.component.html',
+  styleUrls: ['./home-page.component.css']
 })
-export class HomeComponent implements OnInit {
+export class HomePageComponent implements OnInit {
+
 value:Hero[];
  hero: Hero = {
     id: 1,

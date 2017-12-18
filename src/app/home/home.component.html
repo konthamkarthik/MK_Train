@@ -9,41 +9,17 @@
 <div class="demo-layout-transparent mdl-layout mdl-js-layout">
       <header class="mdl-layout__header mdl-layout__header--transparent">
         <div class="mdl-layout__header-row">
-
-          <!-- Title -->
-          <!--<span class="Login_body">Garriage</span>-->
-
-          <!-- Add spacer, to align navigation to the right -->
           <div class="mdl-layout-spacer"></div>
-
-          <!-- Navigation with router directives-->
           <nav class="navbar">
             <div class="collapse navbar-collapse">
-            <a class="mdl-navigation__link" [routerLink]="['/home']">Home</a>
-            <a class="mdl-navigation__link" [routerLink]="['/home/cats']">Cats</a>
-            <a class="mdl-navigation__link" [routerLink]="['/home/nextpage']">Dogs</a>
+            <a class="mdl-navigation__link" [routerLink]="['/home/homepage']">Dashbaord</a>
+            <a class="mdl-navigation__link" [routerLink]="['/home/cats']">Service</a>
+            <a class="mdl-navigation__link" [routerLink]="['/home/nextpage']">History</a>
             </div>
           </nav>
         </div>
-      </header>
-
-      <!--<main class="mdl-layout__content">
-        <h1 class="header-text">We care about pets...</h1>
-      </main>-->
-      <!--<h2>{{ hero.name }} Details</h2>
-        <div><span>id: </span>{{hero.id}}</div>
-      <div><span>name: </span>{{hero.name}}</div>
-    </div>-->
+      </header>      
     <router-outlet></router-outlet>
-
-<!--<div class="jumbotron">
-    <div class="container">
-        <div class="col-sm-8 col-sm-offset-2">     
-            
-            <router-outlet></router-outlet>
-        </div>
-    </div>
-</div>-->
 
 <!-- credits -->
 <div class="text-center">

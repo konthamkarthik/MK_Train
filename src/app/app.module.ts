@@ -7,13 +7,15 @@ import { NextpageComponent } from './nextpage/nextpage.component';
 import { routing } from './app.routes';
 import { LoginComponent } from './login/login.component';
 import { FormsModule } from '@angular/forms';
+import { HomePageComponent } from './home-page/home-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     NextpageComponent,
-    LoginComponent
+    LoginComponent,
+    HomePageComponent
   ],
   imports: [
     BrowserModule,
